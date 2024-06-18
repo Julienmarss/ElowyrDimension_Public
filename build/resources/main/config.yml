@@ -1,0 +1,37 @@
+chanceFactor: 1.0
+
+MESSAGES:
+  TELEPORT-COOLDOWN: "&6&lDimension &7&l• &fVous allez être téléporté dans &d%cooldown% secondes&f."
+  TELEPORT-SUCCESS: "&6&lDimension &7&l• &aTéléportation avec succès !"
+  NO-TICKET: "&cVous devez avoir un ticket pour aller dans la dimension."
+  TICKET:
+    USAGE: "&c/dimension ticket <player> <quantity>."
+    NO-PLAYER: "&cLe joueur n'est pas connecté."
+
+EVENT:
+  ALREADY-STARTED: "&6&lEvent Minage &7&l• &cL'event est déjà en cours !"
+  STARTED: "&6&lEvent Minage &7&l• &fL'évènement a commencé."
+  ALREADY-FINISH: "&6&lEvent Minage &7&l• &cL'event n'est pas en cours !"
+  FINISH: "&6&lEvent Minage &7&l• &fLe totem est terminé, le classement final est:"
+  FINISH-NO-FAC: "&6&lEvent Minage &7&l• &fAucune faction n'a remporté l'event Minage."
+
+name:
+  zombie: "&fZombie Custom"
+
+TICKET:
+  NAME: "Dimension Ticket"
+  Lore:
+    - "Pour la dimension"
+    - "JulienOfMars"
+
+dimension:
+  world: "dimension"
+  x: 0.5
+  y: 101
+  z: 0.5
+
+boss:
+  world: "dimension"
+  x: 0.5
+  y: 101
+  z: 0.5
